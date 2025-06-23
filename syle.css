@@ -1,0 +1,38 @@
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.styled-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: lightblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.styled-button:hover {
+    background: lightskyblue;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(255, 234, 150);
+}
+
+h1 {
+    text-align: center;
+    color: darkmagenta;
+}
